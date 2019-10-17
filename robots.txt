@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: http://gdmarkov.itsinsta.site//sitemap.xml
+Sitemap: https://gdmarkov.itsinsta.site//sitemap.xml

@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -59,249 +62,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="crypterium">
-								<a href="./crypterium.html">
-									<div class="stories__slide-pic"><img src="../img/og/crypterium.png" alt="crypterium" /></div>
-									<div class="stories__slide-txt">crypterium</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="crypterium">
+										<a href="./crypterium.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/crypterium.png);"></div>
+											<div class="stories__slide-txt">crypterium</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="crpt">
+										<a href="./crpt.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/crpt.png);"></div>
+											<div class="stories__slide-txt">crpt</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="life">
+										<a href="./life.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/life.png);"></div>
+											<div class="stories__slide-txt">life</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="blockchain">
+										<a href="./blockchain.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/blockchain.png);"></div>
+											<div class="stories__slide-txt">blockchain</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="crypto currency">
+										<a href="./crypto-currency.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/crypto-currency.png);"></div>
+											<div class="stories__slide-txt">crypto currency</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="payqr">
+										<a href="./payqr.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/payqr.png);"></div>
+											<div class="stories__slide-txt">payqr</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="crypto bank">
+										<a href="./crypto-bank.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/crypto-bank.png);"></div>
+											<div class="stories__slide-txt">crypto bank</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="happy">
+										<a href="./happy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/happy.png);"></div>
+											<div class="stories__slide-txt">happy</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="summer">
+										<a href="./summer.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/summer.png);"></div>
+											<div class="stories__slide-txt">summer</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="fun">
+										<a href="./fun.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/fun.png);"></div>
+											<div class="stories__slide-txt">fun</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="ico">
+										<a href="./ico.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/ico.png);"></div>
+											<div class="stories__slide-txt">ico</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="финтехманьяки">
+										<a href="./fintekhman-yaki.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/fintekhman-yaki.png);"></div>
+											<div class="stories__slide-txt">финтехманьяки</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="travel">
+										<a href="./travel.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/travel.png);"></div>
+											<div class="stories__slide-txt">travel</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="nofilter">
+										<a href="./nofilter.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/nofilter.png);"></div>
+											<div class="stories__slide-txt">nofilter</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="russia">
+										<a href="./russia.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/russia.png);"></div>
+											<div class="stories__slide-txt">russia</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="holi day">
+										<a href="./holi-day.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/holi-day.png);"></div>
+											<div class="stories__slide-txt">holi day</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="bank">
+										<a href="./bank.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bank.png);"></div>
+											<div class="stories__slide-txt">bank</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="cool">
+										<a href="./cool.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/cool.png);"></div>
+											<div class="stories__slide-txt">cool</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="self ie">
+										<a href="./self-ie.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/self-ie.png);"></div>
+											<div class="stories__slide-txt">self ie</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="net work ing">
+										<a href="./net-work-ing.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/net-work-ing.png);"></div>
+											<div class="stories__slide-txt">net work ing</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="work">
+										<a href="./work.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/work.png);"></div>
+											<div class="stories__slide-txt">work</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="fri ends">
+										<a href="./fri-ends.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/fri-ends.png);"></div>
+											<div class="stories__slide-txt">fri ends</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="love">
+										<a href="./love.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/love.png);"></div>
+											<div class="stories__slide-txt">love</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="блокчейн маньяки">
+										<a href="./blokcheyn-man-yaki.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/blokcheyn-man-yaki.png);"></div>
+											<div class="stories__slide-txt">блокчейн маньяки</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="айтиманьяки">
+										<a href="./aytiman-yaki.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/aytiman-yaki.png);"></div>
+											<div class="stories__slide-txt">айтиманьяки</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="blockchain cruise">
+										<a href="./blockchain-cruise.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/blockchain-cruise.png);"></div>
+											<div class="stories__slide-txt">blockchain cruise</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="hot">
+										<a href="./hot.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/hot.png);"></div>
+											<div class="stories__slide-txt">hot</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="bali">
+										<a href="./bali.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bali.png);"></div>
+											<div class="stories__slide-txt">bali</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="xmas">
+										<a href="./xmas.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/xmas.png);"></div>
+											<div class="stories__slide-txt">xmas</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="food">
+										<a href="./food.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/food.png);"></div>
+											<div class="stories__slide-txt">food</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="crpt">
-								<a href="./crpt.html">
-									<div class="stories__slide-pic"><img src="../img/og/crpt.png" alt="crpt" /></div>
-									<div class="stories__slide-txt">crpt</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="life">
-								<a href="./life.html">
-									<div class="stories__slide-pic"><img src="../img/og/life.png" alt="life" /></div>
-									<div class="stories__slide-txt">life</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="blockchain">
-								<a href="./blockchain.html">
-									<div class="stories__slide-pic"><img src="../img/og/blockchain.png" alt="blockchain" /></div>
-									<div class="stories__slide-txt">blockchain</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="crypto currency">
-								<a href="./crypto-currency.html">
-									<div class="stories__slide-pic"><img src="../img/og/crypto-currency.png" alt="crypto currency" /></div>
-									<div class="stories__slide-txt">crypto currency</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="payqr">
-								<a href="./payqr.html">
-									<div class="stories__slide-pic"><img src="../img/og/payqr.png" alt="payqr" /></div>
-									<div class="stories__slide-txt">payqr</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="crypto bank">
-								<a href="./crypto-bank.html">
-									<div class="stories__slide-pic"><img src="../img/og/crypto-bank.png" alt="crypto bank" /></div>
-									<div class="stories__slide-txt">crypto bank</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="happy">
-								<a href="./happy.html">
-									<div class="stories__slide-pic"><img src="../img/og/happy.png" alt="happy" /></div>
-									<div class="stories__slide-txt">happy</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="summer">
-								<a href="./summer.html">
-									<div class="stories__slide-pic"><img src="../img/og/summer.png" alt="summer" /></div>
-									<div class="stories__slide-txt">summer</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="fun">
-								<a href="./fun.html">
-									<div class="stories__slide-pic"><img src="../img/og/fun.png" alt="fun" /></div>
-									<div class="stories__slide-txt">fun</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="ico">
-								<a href="./ico.html">
-									<div class="stories__slide-pic"><img src="../img/og/ico.png" alt="ico" /></div>
-									<div class="stories__slide-txt">ico</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="финтехманьяки">
-								<a href="./fintekhman-yaki.html">
-									<div class="stories__slide-pic"><img src="../img/og/fintekhman-yaki.png" alt="финтехманьяки" /></div>
-									<div class="stories__slide-txt">финтехманьяки</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="travel">
-								<a href="./travel.html">
-									<div class="stories__slide-pic"><img src="../img/og/travel.png" alt="travel" /></div>
-									<div class="stories__slide-txt">travel</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="nofilter">
-								<a href="./nofilter.html">
-									<div class="stories__slide-pic"><img src="../img/og/nofilter.png" alt="nofilter" /></div>
-									<div class="stories__slide-txt">nofilter</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="russia">
-								<a href="./russia.html">
-									<div class="stories__slide-pic"><img src="../img/og/russia.png" alt="russia" /></div>
-									<div class="stories__slide-txt">russia</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="holi day">
-								<a href="./holi-day.html">
-									<div class="stories__slide-pic"><img src="../img/og/holi-day.png" alt="holi day" /></div>
-									<div class="stories__slide-txt">holi day</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="bank">
-								<a href="./bank.html">
-									<div class="stories__slide-pic"><img src="../img/og/bank.png" alt="bank" /></div>
-									<div class="stories__slide-txt">bank</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="cool">
-								<a href="./cool.html">
-									<div class="stories__slide-pic"><img src="../img/og/cool.png" alt="cool" /></div>
-									<div class="stories__slide-txt">cool</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="self ie">
-								<a href="./self-ie.html">
-									<div class="stories__slide-pic"><img src="../img/og/self-ie.png" alt="self ie" /></div>
-									<div class="stories__slide-txt">self ie</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="net work ing">
-								<a href="./net-work-ing.html">
-									<div class="stories__slide-pic"><img src="../img/og/net-work-ing.png" alt="net work ing" /></div>
-									<div class="stories__slide-txt">net work ing</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="work">
-								<a href="./work.html">
-									<div class="stories__slide-pic"><img src="../img/og/work.png" alt="work" /></div>
-									<div class="stories__slide-txt">work</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="fri ends">
-								<a href="./fri-ends.html">
-									<div class="stories__slide-pic"><img src="../img/og/fri-ends.png" alt="fri ends" /></div>
-									<div class="stories__slide-txt">fri ends</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="love">
-								<a href="./love.html">
-									<div class="stories__slide-pic"><img src="../img/og/love.png" alt="love" /></div>
-									<div class="stories__slide-txt">love</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="блокчейн маньяки">
-								<a href="./blokcheyn-man-yaki.html">
-									<div class="stories__slide-pic"><img src="../img/og/blokcheyn-man-yaki.png" alt="блокчейн маньяки" /></div>
-									<div class="stories__slide-txt">блокчейн маньяки</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="айтиманьяки">
-								<a href="./aytiman-yaki.html">
-									<div class="stories__slide-pic"><img src="../img/og/aytiman-yaki.png" alt="айтиманьяки" /></div>
-									<div class="stories__slide-txt">айтиманьяки</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="blockchain cruise">
-								<a href="./blockchain-cruise.html">
-									<div class="stories__slide-pic"><img src="../img/og/blockchain-cruise.png" alt="blockchain cruise" /></div>
-									<div class="stories__slide-txt">blockchain cruise</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="hot">
-								<a href="./hot.html">
-									<div class="stories__slide-pic"><img src="../img/og/hot.png" alt="hot" /></div>
-									<div class="stories__slide-txt">hot</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="bali">
-								<a href="./bali.html">
-									<div class="stories__slide-pic"><img src="../img/og/bali.png" alt="bali" /></div>
-									<div class="stories__slide-txt">bali</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="xmas">
-								<a href="./xmas.html">
-									<div class="stories__slide-pic"><img src="../img/og/xmas.png" alt="xmas" /></div>
-									<div class="stories__slide-txt">xmas</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="food">
-								<a href="./food.html">
-									<div class="stories__slide-pic"><img src="../img/og/food.png" alt="food" /></div>
-									<div class="stories__slide-txt">food</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -315,15 +324,15 @@
 					<div class="tag__group">
 						<h1 class="tag__title">надопрыгать</h1>
 						<div class="tag__item-list">
-							<a href="../posts/./luchshe-vsego-po-utru-prygaetsya-v-marshrutkakh.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0498296df74c6882a2a05dd210438334/5D9A0651/t51.2885-15/e15/13636173_1120937384630303_294929928_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+							<a href="../posts/./luchshe-vsego-po-utru-prygaetsya-v-marshrutkakh-scrm-dot-dot.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/20e93224b894c58d6f5359d4b47c10cc/5DAA8111/t51.2885-15/e15/13636173_1120937384630303_294929928_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-07-11">11 July 2016</time></div>
 										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>1</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
 									</div>
 									<div class="tag__item-txt">
-										<h2>Лучше всего по утру прыгается в маршрутках!</h2>
+										<h2>Лучше всего по утру прыгается в маршрутках!...</h2>
 										<p>Лучше всего по утру прыгается в маршрутках! Спешл фо @svetlana_upala_s_divana :))</p>
 										<p>...ЧИТАТЬ ДАЛЕЕ</p>
 									</div>
@@ -368,11 +377,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
